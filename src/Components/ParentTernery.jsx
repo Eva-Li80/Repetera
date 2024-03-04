@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Ternery from './Ternery'
 
-import React from 'react'
+
 
 const ParentTernery = () => {
     const [loggedin, setLoggedIn] = useState(false)
