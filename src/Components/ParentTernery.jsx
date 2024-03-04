@@ -7,7 +7,8 @@ const ParentTernery = () => {
     const [loggedin, setLoggedIn] = useState(false)
 
   return (
-    <div>
+    <div className='partern'>
+        <h2>Parent Ternery</h2>
       <Ternery isLoggedIn={() => setLoggedIn(loggedin)}/>
     </div>
   )

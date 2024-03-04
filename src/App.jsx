@@ -12,17 +12,19 @@ import "./mainstyle.css"
 import Text from "./Components/Text"
 import UseState from "./Components/UseState"
 import Uttryck from "./Components/Uttryck"
+import { useState } from "react"
 
 
 
 
 
 function App() {
-
+  const [name, setName] = useState("Eva-LI")
+ 
   return (
     <>
     <div>
-      <Text text="jsx text"/>
+      <Text text="Jsx text" name={name}/>
       <Uttryck/>
       <EventListener/>
       <EventObject/>

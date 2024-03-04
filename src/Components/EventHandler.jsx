@@ -4,11 +4,11 @@ const EventHandler = () => {
     const [name , setName] = useState("anna")
 
     const handleHandler = () => {
-        setName(name)
+        setName("kalle")
     }
   return (
-    <div>
-        <h1>eventhandler</h1>
+    <div className='evenhan'>
+        <h1>Eventhandler</h1>
       {name}
       <button onClick={handleHandler}>change name</button>
     </div>

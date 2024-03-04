@@ -10,7 +10,7 @@ const EventListener = () => {
   };
 
   return (
-    <div>
+    <div className="evelis">
         <h1>eventlisener</h1>
       Radio buttons
       <label> Option 1</label>

@@ -5,7 +5,7 @@ const Destructuring = () => {
     const {name, age} = person
 
   return (
-    <div>
+    <div className='des'>
         <h1>descrtione</h1>
         <h3>{name}</h3>
         <p>{age}</p>

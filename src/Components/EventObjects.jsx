@@ -11,7 +11,7 @@ const EventObject = () => {
   };
 
   return (
-    <div>
+    <div className='evenobj'>
       <h2>Event Listener Component</h2>
       <button onClick={handleClick}>Click Me</button>
       <p>{eventInfo}</p>

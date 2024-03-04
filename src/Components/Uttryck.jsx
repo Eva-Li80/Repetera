@@ -11,7 +11,7 @@ const Uttryck = () => {
 
   const element = <p>summan av talen är : {uttryck(2, 3)}</p>;
 
-  return <div>{element}</div>;
+  return <div className="uttryck">{element}</div>;
 };
 
 export default Uttryck;
